@@ -35,6 +35,7 @@ def Detector(frame):
                 0.8,
                 (255,255,255),
                 2)
+    #cv2.imwrite('human_img_output.jpg',frame)
     cv2.imshow('output',frame)
     return frame
 
